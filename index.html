@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="media_query.css">
+    <link rel="shortcut icon" href="img/icons/favico.ico" type="image/x-icon">
+    <script src="script.js"></script>
+</head>
+
+<body onload="renderPost()">
+
+    <main id="fullPage">
+        <section class="navbarCtn">
+            <nav class="navbar">
+                <div class="navbar_row">
+                    <div class="d-none">
+                        <img src="img/icons/instagram.png" alt="">
+                        <h1>Instagram</h1>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><img src="img/icons/home.svg" alt=""><a href="#">Starseite</a></li>
+                            <li><img src="img/icons/compass.svg" alt=""><a href="#">Entdecken</a></li>
+                            <li><img src="img/icons/search.svg" alt=""><a href="#">Suche</a></li>
+                            <li><img src="img/icons/video.svg" alt=""><a href="#">Reels</a></li>
+                            <li><img src="img/icons/message.png" alt=""><a href="#">Nachrichten</a></li>
+                            <li><img src="img/icons/heart.png" alt=""><a href="#">Benarichtigungen</a></li>
+                            <li><img src="img/icons/add.svg" alt=""><a href="#">Erstellen</a></li>
+                            <li><img src="img/icons/profil.png" alt=""><a href="#">Profil</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="navbar_menu">
+                    <img src="img/icons/menu.svg" alt="">
+                    <a href="#">Mehr</a>
+                </div>
+            </nav>
+        </section>
+
+        <main class="main">
+            <section class="posts">
+                <nav class="profil_navbar">
+                    <div class="profil">
+                        <div class="profil_circle">
+                            <img src="img/icons/DA_Logo.png" alt="">
+                        </div>
+                        <span>Developer_Akademie</span>
+                    </div>
+                    <div class="profil">
+                        <div class="profil_circle">
+                            <img src="img/it4Life.jpg" alt="">
+                        </div>
+                        <span>IT4Life</span>
+                    </div>
+                    <div class="profil">
+                        <div class="profil_circle">
+                            <img src="img/travel_heart.jpg" alt="">
+                        </div> <span>TravelHeart</span>
+                    </div>
+                    <div class="profil">
+                        <div class="profil_circle">
+                            <img src="img/meat&drink.jpg" alt="">
+                        </div> <span>Meat&Drink</span>
+                    </div>
+                    <div class="profil">
+                        <div class="profil_circle">
+                            <img src="img/gamer_World.jpg" alt="">
+                        </div> <span>GamerWorld</span>
+                    </div>
+                    <div class="profil">
+                        <div class="profil_circle">
+                            <img src="img/mechanic_tipps.jpg" alt="">
+                        </div>
+                        <span>MechanicTipps</span>
+                    </div>
+                    <div class="profil">
+                        <div class="profil_circle">
+                            <img src="img/fitness.jpg" alt="">
+                        </div> <span>Fit&Healthy</span>
+                    </div>
+                    <div class="profil">
+                        <div class="profil_circle">
+                            <img src="img/univers.jpg" alt="">
+
+                        </div> <span>My_univers</span>
+                    </div>
+                </nav>
+
+                <section id="post" class="section_post">
+
+                </section>
+                <div class="legal_links">
+                    <a href="impressum.html" target="_blank">© copyright</a>
+                    <a href="impressum.html" target="_blank">Impressum</a>
+                </div>
+            </section>
+
+
+            <aside class="aside">
+                <div class="profils_suggestion_Ctn">
+                    <div class="profil_title">
+                        <img src="img/icons/profil.png" alt="">
+                        <div class="profils_suggestion">
+                            <div>Anthony Hamon</div>
+                            <span>Software Entwickler</span>
+                        </div>
+                    </div>
+                    <a href="#">Wechseln</a>
+                </div>
+                </div>
+
+                <section>
+                    <div class="profils_suggestion_Ctn">
+                        <h3>Vorschläge für Dich</h3>
+                        <span>Alle ansehen</span>
+                    </div>
+                    <div>
+                        <div class="profils_suggestion_Ctn">
+                            <div class="profil_title">
+                                <img src="img/yellow_doctor.jpg" alt="">
+                                <div class="profils_suggestion">
+                                    <div>Aquarium_World</div>
+                                    <span>neu auf Instagram</span>
+                                </div>
+                            </div>
+                            <a href="#">Folgen</a>
+                        </div>
+
+                        <div class="profils_suggestion_Ctn">
+                            <div class="profil_title">
+                                <img src="img/camera.jpg" alt="">
+                                <div class="profils_suggestion">
+                                    <div>Photography</div>
+                                    <span>Developer_Akademie ist auch follower</span>
+                                </div>
+                            </div>
+                            <a href="#">Folgen</a>
+                        </div>
+
+
+                        <div class="profils_suggestion_Ctn">
+                            <div class="profil_title">
+                                <img src="img/tattoo_world.jpg" alt="">
+                                <div class="profils_suggestion">
+                                    <div>Tattoo4Everybody</div>
+                                    <span>folgt dir jetzt</span>
+                                </div>
+                            </div>
+                            <a href="#">Folgen</a>
+                        </div>
+
+
+                        <div class="profils_suggestion_Ctn">
+                            <div class="profil_title">
+                                <img src="img/funny.jpg" alt="">
+                                <div class="profils_suggestion">
+                                    <div>Fun & Funniest</div>
+                                    <span>World & 3 weitere personen folgen auch</span>
+                                </div>
+                            </div>
+                            <a href="#">Folgen</a>
+                        </div>
+                    </div>
+                </section>
+                </div>
+            </aside>
+        </main>
+    </main>
+</body>
+
+</html>
